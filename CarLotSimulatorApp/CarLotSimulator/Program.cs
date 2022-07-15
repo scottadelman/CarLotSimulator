@@ -58,7 +58,9 @@ namespace CarLotSimulator
                 Console.WriteLine($"{car.Year} {car.Make} {car.Model}");
                 car.MakeEngineNoise();
                 car.MakeHornNoise();
+                Console.WriteLine();
             }
+            Console.WriteLine($"There are {CarLot.CarCount} cars in the lot");
         
         }
     }
